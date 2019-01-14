@@ -9,6 +9,6 @@
 #ifndef cuboid_hpp
 #define cuboid_hpp
 
-#include <stdio.h>
+
 
 #endif /* cuboid_hpp */
