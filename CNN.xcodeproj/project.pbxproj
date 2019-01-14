@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9FB7713721EC600100C95AB2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7713621EC600100C95AB2 /* main.cpp */; };
+		9FB7714021EC611E00C95AB2 /* cuboid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7713E21EC611E00C95AB2 /* cuboid.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		9FB7713321EC600100C95AB2 /* CNN */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CNN; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FB7713621EC600100C95AB2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9FB7713E21EC611E00C95AB2 /* cuboid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cuboid.cpp; sourceTree = "<group>"; };
+		9FB7713F21EC611E00C95AB2 /* cuboid.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = cuboid.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +60,19 @@
 		9FB7713521EC600100C95AB2 /* CNN */ = {
 			isa = PBXGroup;
 			children = (
+				9FB7713D21EC604A00C95AB2 /* Library */,
 				9FB7713621EC600100C95AB2 /* main.cpp */,
 			);
 			path = CNN;
+			sourceTree = "<group>";
+		};
+		9FB7713D21EC604A00C95AB2 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				9FB7713E21EC611E00C95AB2 /* cuboid.cpp */,
+				9FB7713F21EC611E00C95AB2 /* cuboid.hpp */,
+			);
+			path = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FB7713721EC600100C95AB2 /* main.cpp in Sources */,
+				9FB7714021EC611E00C95AB2 /* cuboid.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
